@@ -14,7 +14,7 @@ services:
       - expense
     container_name: mysql
     volumes:
-      - mysql: /var/lib/mysql/
+      - mysql:/var/lib/mysql
 
  # docker run -d --name backend --network expense backend:1.0.0 
 
